@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="left"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textColor="@color/whitecolor"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register"
+                    android:layout_marginLeft="70dp"
+                    android:textColor="@color/grey"/>
+
+            </LinearLayout>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumb="@drawable/swt_thumb"
+                android:track="@drawable/swt_track" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="23dp">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edt_back"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/whitecolor"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textColor="#63ffe5"
+                android:textSize="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-50dp"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edt_back"
+                android:layout_marginTop="55dp"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/whitecolor"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#63ffe5"
+                android:textSize="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot password?"
+                android:textColor="#63ffe5"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/logbtn"
+                android:layout_width="300dp"
+                android:layout_height="43dp"
+                android:text="Login"
+                android:textColor="@color/whitecolor"
+                android:background="@drawable/btn"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:elevation="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? Create"
+                android:textColor="@color/whitecolor"
+                android:layout_gravity="center"
+                android:layout_marginTop="19dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
